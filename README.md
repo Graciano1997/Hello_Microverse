@@ -18,6 +18,7 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+   - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -69,7 +70,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
   ```sh
-  cd portfolio-version
+  cd [your_folder_name]
   git clone https://github.com/Graciano1997/Hello_Microverse.git
 ```
 ### Install
@@ -84,6 +85,22 @@ Install this project with:
 To run the project, execute the following command:
 
 - Open the index.html with the LiveServer extension
+### Run tests
+
+To run tests, run the following command:
+
+- To track HTML linter errors run:
+```
+npx hint .
+```
+- To track CSS linter errors run::
+```
+npx stylelint "**/*.{css,scss}"
+```
+- To track JavaScript linter errors run:
+```
+npx eslint .
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,7 +120,7 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **The Microverse's News Portal**
-- **The First Module Student's Testimonials**
+- **The First Module Student's Testimonials feature**
 - **A time Calculator for Micronouts**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -137,13 +154,8 @@ I would like to thank **Kiko Kirti Arora** and my Team
 
 - **What do this App ?**
 
-  - It says Hello to Microverse
+  - It says Hello to Microverse.
 
-- **Is there Anything more?**
-
-  Yes! Good things are comming,
-  consult 
-  <a href="#future-features">future-features</a>
   
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
